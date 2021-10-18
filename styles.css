@@ -10,10 +10,10 @@ body{
 }
 
 .mainInfo .avatar{
-    width: 150px;
+    height: 150px;
     border-radius: 26px;
     box-shadow: 4px 4px 14px rgba(0,0,0,025);
-    margin-left: 115px;
+    margin-left: 85px;
     margin-top: 10px;
 }
 
