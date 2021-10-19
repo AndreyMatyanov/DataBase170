@@ -20,7 +20,7 @@ body{
 
 @font-face {
     font-family: Roboto;
-    src: url(font/Roboto-Bold.ttf);
+    src: url(Roboto-Bold.ttf);
 }
 
 .mainInfo p{
