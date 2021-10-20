@@ -1,4 +1,3 @@
-
 body{
     background-color: #1f2535;
 
@@ -32,13 +31,13 @@ body{
 
 .container{
     max-width: 1400px;
-    margin: auto;
-    margin-left: 410px;
+    margin-top: 50px;
+    margin-left: 405px;
 }
 
 .container p, .container a{
     margin-left: 20px;
-    padding-top: -10px;
+    padding-top: 10px;
 }
 
 
@@ -59,7 +58,7 @@ a:active{
     background: #151a27;
     border-radius: 20px;
     border: 2px solid rgb(0, 0, 0);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 101%;
     margin-left: 10px;
 }
@@ -146,7 +145,7 @@ a:active{
 
 .friendship{
     position: fixed;
-    top: 480px;
+    top: 355px;
     left: 10px;
     width: 400px;
     height: 100px;
@@ -159,7 +158,7 @@ a:active{
     position: fixed;
     max-width: 800px;
     width: 400px;
-    top: 125px;
+    top: 50px;
     left: 10px;
     background: #151a27;
     border-radius: 10px;
@@ -176,11 +175,6 @@ a:active{
     min-width: 50%;
 }
 
-.nameOfDocument{
-    margin-left: 600px;
-    font-size: 50px;
-}
-
 .lol{
     position: fixed;
     width: 200px;
@@ -193,7 +187,7 @@ a:active{
 .documentList{
     position: fixed;
     width: 400px;
-    top: 580px;
+    top: 450px;
     left: 10px;
     background: #151a27;
     border-radius: 10px;
@@ -223,14 +217,43 @@ a:active{
     margin-left: 100px;
 }
 
-.logo{
+
+.head{
+    background: #151a27;
+    border-bottom: 2px solid black;
+    width: 100%;
     position: fixed;
+    top: 0px;
+    left:0px;
+    
+}
+
+.head > div{
+    display: inline-flex;
+    float: inline-end;
+}
+
+.logo{
+    display:flex;
     background-image: url("logo.png");
     top: 30px;
     left: 20px;
-    width: 150px;
-    height: 75px;
+    width: 75px;
+    height: 37px;
+    margin-left: 10px;
+
 }
+
+#current_date_time_block, .nameOfDocument{
+    margin-left: 200px;
+    width: 30%;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+    vertical-align: super;
+    margin-bottom: 0px;
+}
+
 
 
 /* работа над фрэндлистом */
@@ -308,3 +331,4 @@ body > div{
     text-shadow: none;
 
 }
+
