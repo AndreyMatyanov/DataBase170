@@ -59,7 +59,7 @@ a:active{
     border-radius: 20px;
     border: 2px solid rgb(0, 0, 0);
     margin-bottom: 10px;
-    width: 101%;
+    width: 97%;
     margin-left: 10px;
 }
 
@@ -167,6 +167,7 @@ a:active{
 
 .littleinfo{
     display: flex;
+    width: 98%;
 }
 
 .littleinfo div{
